@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "8af44390-5a07-4f52-8298-622871790568",
+		"name": "Postman Training",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30315710",
+		"_collection_link": "https://bold-star-906251.postman.co/workspace/Latihan1~d5a79438-23c1-4bd7-84b7-f019954988da/collection/30315710-8af44390-5a07-4f52-8298-622871790568?action=share&source=collection_link&creator=30315710"
+	},
+	"item": [
+		{
+			"name": "Get all posts",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create new post",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get post by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{userToken}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "postId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "userToken",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
